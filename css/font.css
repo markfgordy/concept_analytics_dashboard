@@ -1,0 +1,64 @@
+h1
+{
+	font-size: 28px;
+	font-family: "Heiti TC";
+	color: #1e1e20;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h2
+{
+	font-size: 24px;
+	font-family: "Heiti TC";
+	color: #888;
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h3
+{
+	font-size: 20px;
+	font-family: "Heiti TC";
+	color: #eee;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h4
+{
+	font-size: 16px;
+	font-family: "Heiti TC";
+	color: #888;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h5
+{
+	font-size: 14px;
+	font-family: "Heiti TC";
+	color: #888;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h6
+{
+	font-size: 12px;
+	font-family: "Heiti TC";
+	color: #333;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+p
+{
+	font-size: 13px;
+	font-family: "Heiti TC";
+	color: #888;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	line-height: 1.7;
+}
+

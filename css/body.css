@@ -1,0 +1,278 @@
+body
+{
+	background: #ffffff;
+	margin:0;
+	font-family: "Heiti TC";
+}
+
+* 
+{
+	webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none;
+    }
+
+a:hover 
+{
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+  /*filter: alpha(opacity=50); /* IE7 */
+  /*opacity: 0.6;
+  text-decoration: none;*/
+}
+
+a:visited { text-decoration: none; }
+
+
+.header
+{
+	width:100%;
+	position:fixed;
+	top:0px;
+	height:50px;
+	z-index: 100;
+	background: #2d3e50;
+}
+
+div.header.moving
+{	opacity:.9;
+	-webkit-box-shadow:rgba(0,0,0,0.3) 0 2px 10px;
+	-moz-box-shadow:rgba(0,0,0,0.3) 0 2px 10px;
+	box-shadow:rgba(0,0,0,0.3) 0 2px 10px
+}
+
+.header-container
+{
+	margin: 0 auto;
+	width:90%;
+}
+
+.logo
+{
+	float: left;
+	padding:20px 0px 0px 0px;
+	width: 20%;
+	max-width: 90%;
+}
+
+.logo h3 {color: #eee;}
+
+.logo img
+{
+    width: 100%;
+    min-width: 200px;
+}
+
+.menu { color: #eee; }
+
+.menu a
+{
+	float: right;
+	margin: 20px 0px 0px 0px;
+}
+
+.menu a:visited { text-decoration: none; color: #eee; }
+
+.side_menu
+{
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	width: 50px;
+	background: #fefefe;
+	border-right: 2px solid #eee;
+
+}
+
+.side_menu ul,.side_menu ul li,.side_menu ul ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.side_meun { position: relative; }
+
+.side_menu ul li 
+{
+	width: 100%;
+	height: 50px;
+	list-style: none;
+	position: relative;
+}
+
+.side_menu ul li a 
+{
+	color: #eee; 
+	width: 100%; 
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.side_menu ul li i
+{
+	color: #eee;
+	width: 100%; 
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.side_menu ul ul
+{
+	visibility: hidden;
+	position: absolute;
+	width: 200px;
+	left: 99%;
+	background: #f1f1f1;
+	top: 100%;
+	-webkit-box-shadow: 5px 10px 10px 1px rgba(221,221,221,1);
+	-moz-box-shadow: 5px 10px 10px 1px rgba(221,221,221,1);
+	box-shadow: 5px 10px 10px 1px rgba(221,221,221,1);
+}
+
+.side_menu ul li:hover > ul {
+  visibility: visible;
+}
+
+.side_menu ul ul { top: 0px; }
+
+.side_menu ul ul li { font-size: 12px; padding: 0; margin: 0; }
+.side_menu ul ul li span {color:#333; }
+.side_menu ul li ul li i {color:#333; padding-left:10px; padding-right: 30px; text-align: left; width: 10px;}
+.side_menu ul ul li:hover { background: #ddd; }
+
+.view{}
+.content 
+{
+	position: absolute; 
+	left: 50px;
+	top: 50px;
+	right:0;
+	bottom: 0;
+	overflow-y: auto;
+	background: #f1f1f1;
+}
+.container
+{
+	padding: 15px;
+	overflow: hidden;
+	background: #f3f3f3;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.row
+{
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow: hidden;
+}
+.row:before {display: table;}
+
+.heading
+{
+	width: 100%;
+	background: #e9e9e9;
+	height: 40px;
+	padding: 10px 15px;
+}
+.heading_icon {}
+.heading_icon h1 {font-size: 12px; color: #777; float: left; padding-top: 5px;}
+.heading_icon i {color: #777; float: left; font-size: 20px; padding-right: 10px;}
+.box
+{
+	min-height: 110px;
+	margin-bottom: 20px;
+	background: #ffffff;
+	border: 1px solid #e9e9e9;
+	border-radius: 2px;
+}
+.column01
+{	
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.column02
+{
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.column03
+{
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.min_box
+{
+	padding: 20px;
+}
+.icon
+{
+	display: block;
+	width: 65px;
+	float:left;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	margin: 0px 0px 0px 0px;
+	font-size: 35px;
+	text-align: center;
+	padding: 15px;
+	color: #eee;
+}
+.box_icon_01 {background: #23AE89; margin: 0px 12px 0px 0px;}
+.box_icon_02 {background: #449DD5; margin: 0px 12px 0px 0px;}
+.box_icon_03 {background: #F98E33; margin: 0px 12px 0px 0px;}
+.box_icon_04 {background: #FFB61C; margin: 0px 12px 0px 0px;}
+
+.box_info {padding-top: 10px;}
+.box_info h1
+{
+	font-size:35px;
+	color:#777;
+}
+.box_info p
+{
+	font-size:14px;
+	color:#777;
+}
+
+#chartContainer { width: 100%; text-align: center; overflow: hidden;}
+
+
+.donut_container { text-align: center; overflow: hidden;}
+
+#donut {}
+
+.device_table { width: 100%; border-collapse: collapse;}
+
+.device_table thead { border-bottom: 2px solid #ccc;}
+
+.device_table thead th { padding: 15px 10px; text-align: left; color: #777; font-size: 14px;}
+
+.device_table tbody {}
+
+.device_table tbody tr { border-bottom: 1px solid #ddd; padding: 10px;}
+
+.device_table tbody tr td {padding: 15px 10px; text-align: left; color: #777; font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+.wrap
+{ }

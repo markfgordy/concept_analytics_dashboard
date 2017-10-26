@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/devices.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">	
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/canvasjs.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>	
+  	<script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"></script>
+  	<script type="text/javascript" src="js/bar_chart.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    </head>
+
+    <body>
+
+    	 <div class="header">
+			<div class="header-container">
+				<div class="logo">
+					<h3>iraus</h3>
+				</div>
+				<div class="menu">
+					<a href="#">
+					<i class="fa fa-bars fa-1x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="view">
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="column01">
+							<div class="box min_box">
+								<div class="icon box_icon_01">
+									<i class="fa fa-users"></i>
+								</div>
+								<div class="box_info">
+									<h1>27</h1>
+									<p>New users</p>
+								</div>
+							</div>
+						</div>
+						<div class="column01">
+							<div class="box min_box">
+								<div class="icon box_icon_02">
+									<i class="fa fa-dollar"></i>
+								</div>
+								<div class="box_info">
+									<h1>100</h1>
+									<p>New Discounts</p>
+								</div>
+							</div>
+						</div>
+						<div class="column01">
+							<div class="box min_box">
+								<div class="icon box_icon_03">
+									<i class="fa fa-users"></i>
+								</div>
+								<div class="box_info">
+									<h1>117</h1>
+									<p>write</p>
+								</div>
+							</div>
+						</div>
+						<div class="column01">	
+							<div class="box min_box">
+								<div class="icon box_icon_04">
+									<i class="fa fa-thumbs-o-down"></i>
+								</div>
+								<div class="box_info">
+									<h1>5</h1>
+									<p>Errors</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column02">
+							<div class="heading">
+								<div class="heading_icon">
+									<i class="fa fa-th-large"></i>
+									<h1>DATA</h1>
+								</div>
+							</div>
+							<div class="box">
+								<div id="chartContainer"></div>
+							</div>
+						</div>
+						<div class="column03">
+							<div class="heading">
+								<div class="heading_icon">
+									<i class="fa fa-th-large"></i>
+									<h1>DATA</h1>
+								</div>
+							</div>
+							<div class="box donut_container">
+								<canvas id="donut" width="300" height="300"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div class="heading">
+							<div class="heading_icon">
+								<i class="fa fa-table"></i>
+								<h1>TABLE</h1>
+							</div>
+						</div>
+
+						<table class="device_table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Device Type</th>
+									<th>Device OS</th>
+									<th># of Discounts</th>
+									<th>Average Discont</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="side_menu">
+			<ul>
+				<li style="background:#E94B3B">
+					<a href="#"><i class="fa fa-tachometer"></i></a>
+				</li>
+				<li style="background:#F98E33">
+					<a href="#"><i class="fa fa-location-arrow"></i></a>
+					<ul>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+					</ul>
+				</li>
+				<li style="background:#FFB61C">
+					<a href="#"><i class="fa fa-filter"></i></a>
+					<ul>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+					</ul>
+				</li>
+				<li style="background:#23AE89">
+					<a href="#"><i class="fa fa-bar-chart"></i></a>
+					<ul>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+						<li><a href="#"><i class="fa fa-caret-right"></i><span>placeholder</span></a></li>
+					</ul>
+				</li>
+				<li style="background:#449DD5">
+					<a href="#"><i class="fa fa-pie-chart"></i></a>
+				</li>
+				<li style="background:#1C7EBB">
+					<a href="#"><i class="fa fa-cog"></i></a>
+				</li>
+			</ul>
+		</div>
+
+	<script>
+//		Morris.Donut({
+//			resize: true,
+//			element: 'donut',
+//			formatter: function(y, data) {return y + '%'},
+//			data: [
+//				{label: "iPhone 4", value: 15},
+//				{label: "iPhone 5", value: 35},
+//				{label: "iPhone 6", value: 40},
+//				{label: "iPhone 6+", value: 10},
+//			],
+//		});
+	</script>
+
+    </body>
+
+ </html>

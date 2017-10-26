@@ -1,0 +1,137 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+@media only screen
+and (max-width : 1000px) {
+	.column01 { width: 50%; }
+	.column02 { width: 100%; }
+	.column03 { width: 100%; }
+	#chartContainer { height: 340px; }
+	.donut_container { }
+	#donut { margin: 10px 0px 0px 10px;}
+	
+
+}
+
+@media only screen
+and (min-width : 1000px) {
+	.column01 { width: 25%; }
+	.column02 { width: 65%; }
+	.column03 { width: 35%; }
+	#chartContainer { height: 340px; }
+	.donut_container { height: 340px; }
+	#donut { margin-top: 20px;}
+
+
+}
+
+@media only screen
+and (max-width : 400px) {
+	.column01 {width:100%%;}
+}
+
+@media only screen
+and (min-width : 1600px) {
+	#chartContainer { }
+	
+	
+	
+}
+
+
+
+/*
+@media only screen 
+and (max-width : 1024px) {
+/* Styles 
+h1 { font-size: 18px; }
+h2 { font-size: 14px; }
+h3 { font-size: 23px; }
+h4 { font-size: 23px; }
+h5 { font-size: 11px; }
+h6 { font-size: 23px; }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
