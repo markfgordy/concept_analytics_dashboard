@@ -2,7 +2,7 @@ body
 {
 	background: #ffffff;
 	margin:0;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 }
 a {text-decoration:none;}
 
@@ -235,7 +235,6 @@ div.header.moving
 .column p
 {
 	font-size: 13px;
-	font-family: "Heiti TC";
 	color: #F1F1F1;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -261,7 +260,6 @@ div.header.moving
 	float: left;
 	margin: 1.8% 0% 0% 0%;
 	font-size: 11px;
-	font-family: "Heiti TC";
 	color: #F1F1F1;
 }
 

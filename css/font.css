@@ -1,7 +1,7 @@
 h1
 {
 	font-size: 28px;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 	color: #1e1e20;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -10,7 +10,7 @@ h1
 h2
 {
 	font-size: 24px;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 	color: #888;
 	margin: 0px 0px 15px 0px;
 	padding: 0px 0px 0px 0px;
@@ -19,7 +19,7 @@ h2
 h3
 {
 	font-size: 20px;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 	color: #eee;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -28,7 +28,7 @@ h3
 h4
 {
 	font-size: 16px;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 	color: #888;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -37,7 +37,7 @@ h4
 h5
 {
 	font-size: 14px;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 	color: #888;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -46,7 +46,7 @@ h5
 h6
 {
 	font-size: 12px;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 	color: #333;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -55,7 +55,7 @@ h6
 p
 {
 	font-size: 13px;
-	font-family: "Heiti TC";
+	font-family: 'Roboto', sans-serif;
 	color: #888;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
